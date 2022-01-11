@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "postcss": "^8.1.0",
+    "tailwindcss": "^3.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwind build -i src/style.css -o public/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
